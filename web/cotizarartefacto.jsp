@@ -201,6 +201,41 @@ font-size: 16px;">  <label style="text-transform: uppercase">${sessionScope.usua
                 </div>
                 <!-- /. ROW  -->
                  <hr />
+                 <!-- /. PANEL 1 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Consultar
+                    </div>
+                    <div class="panel-body">
+                        <div class="row text-center ">
+                            <form role="form">
+                                 <div class="radio-inline">
+                                    <label>
+                                        <input class="form-control" placeholder="Artefacto" required="required"/>
+                                    </label>
+                                </div>
+                                <div class="radio-inline">
+                                    <label>
+                                        <input class="form-control" placeholder="Marca"/>
+                                    </label>
+                                </div>
+                                <div class="radio-inline">
+                                    <select class="form-control">
+                                        <option>OLX</option>
+                                        <option>Linio</option>
+                                    </select>
+                                </div>
+                                 <div class="radio-inline">
+                                     <label>
+                                        <button type="submit" class="btn btn-default btn-sm"><i class="fa fa-search"></i> Consultar</button>
+                                     </label>
+                                 </div>
+                            </form>
+                        </div>
+                    </div>
+                         
+                </div>
+                <!-- /. FIN PANEL 1 -->
             
           
     </div>
